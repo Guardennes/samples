@@ -13,10 +13,39 @@ app.get('/', (request, response) => {
   response.send(`<!DOCTYPE html>
 <html>
   <head>
-    <title>Powered By Paketo Buildpacks</title>
+    <title>Welcome to the C Confidential Application Deployment by Guardennes</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+      .container {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .title {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      .subtitle {
+        font-size: 16px;
+        color: #555;
+      }
+      img {
+        display: block;
+        margin: 20px auto;
+        width: 200px;
+      }
+    </style>
   </head>
   <body>
-    <img style="display: block; margin-left: auto; margin-right: auto; width: 50%;" src="https://paketo.io/images/paketo-logo-full-color.png"></img>
+    <div class="container">
+      <h1 class="title">Welcome to the C Confidential Application Deployment by Guardennes</h1>
+      <p class="subtitle">Your application is now up and running!</p>
+      <img src="https://via.placeholder.com/200" alt="Company Logo">
+    </div>
   </body>
 </html>`);
 });
