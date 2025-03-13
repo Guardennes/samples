@@ -1,5 +1,36 @@
 # Node.js Sample App using NPM
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Building
 
 `pack build npm-sample --buildpack paketo-buildpacks/nodejs`
